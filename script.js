@@ -33,23 +33,23 @@ buttonSnd.onclick = () => {
     answerTwo.textContent = randomDrinks
     if (randomDrinks === drinks[0]) {
         header.style.backgroundImage = "url(./img/konjak.jpg)";
-    } else
+    }
     if (randomDrinks === drinks[1]) {
         header.style.backgroundImage = "url(./img/vodka.jpg)";
-    } else
+    }
     if (randomDrinks === drinks[2]) {
         header.style.backgroundImage = "url(./img/beer.jpg)";
-    } else
+    }
     if (randomDrinks === drinks[3]) {
         questionThird.style.display = 'block'
         header.style.backgroundImage = "url(./img/moonshine.jpg)";
-    } else
+    }
     if (randomDrinks === drinks[4]) {
         header.style.backgroundImage = "url(./img/ersh.jpg)";
-    } else
+    }
     if (randomDrinks === drinks[5]) {
         header.style.backgroundImage = "url(./img/blazer.jpg)";
-    } else
+    }
     if (randomDrinks !== drinks[3]) {
         questionThird.style.display = 'none'
         answerThree.innerHTML = ''
@@ -63,12 +63,12 @@ buttonTrd.onclick = () => {
     if (randomMaker === makers[0]) {
         header.style.backgroundImage = "url(./img/kluka.jpg)";
         header.style.backgroundPosition = "55% 0";
-    } else
+    }
 
     if (randomMaker === makers[1]) {
         header.style.backgroundImage = "url(./img/niksh.jpg)";
         header.style.backgroundPosition = "55% 70%";
-    } else
+    }
 
     if (randomMaker === makers[2]) {
         header.style.backgroundImage = "url(./img/peps.jpg)";
