@@ -9,15 +9,16 @@ body {
 .header {
     display: block;
     width: 100%;
-    height: 1500px;
+    height: 1000px;
     margin: 0;
     padding: 0;padding-top: 50px;
     background-color: black;
+    background-size: contain;
 }
 
 .question__container {
     display: block;
-    width: 500px;
+    max-width: 500px;
     /* height: 100%; */
     background-color: grey;
     opacity: 0.8;
@@ -48,7 +49,7 @@ body {
     height: 30px;
     font-size: 21px;
     font-weight: 400;
-    margin-left: 175px;
+    margin-left: 35%;
     background-color: yellow;
     
 }
