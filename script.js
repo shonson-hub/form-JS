@@ -7,6 +7,7 @@ const buttonSnd = document.querySelector('.button-snd')
 const buttonTrd = document.querySelector('.button-thrd')
 const questionSecond = document.querySelector('.question__second')
 const questionThird = document.querySelector('.question__third')
+const questionHeading = document.querySelector('.question__heading')
 
 const answers = ['ясен хуй!', 'да ну нахуй', 'я в завязке!', 'чо пить будем?']
 const drinks = ['коньяк', 'водочки', 'пивас', 'сэмыч', 'ерша', 'Blazer']
@@ -74,4 +75,10 @@ buttonTrd.onclick = () => {
         header.style.backgroundImage = "url(./img/peps.jpg)";
         header.style.backgroundPosition = "55% 50%";
     }
+}
+
+const newHeading = prompt("Чо как звать?")
+questionHeading.innerHTML = "Даров, " + newHeading + "!"
+if (newHeading === null) {
+    questionHeading.innerHTML = "Даров, колдырь-бродяга..."
 }
